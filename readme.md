@@ -1,11 +1,3 @@
-
-<span align="center">
-<pre>
-    <a href="https://www.yuntongxun.com/"><img src="https://raw.githubusercontent.com/cloopen/imgae/master/logo/logo.png" align="center" /></a>
-</pre>
-</span>
- 
-<br/>
   
 ## 发布说明
 # v1.0
