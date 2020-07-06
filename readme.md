@@ -9,7 +9,6 @@
 --------------------------------
 
 ## 示例
-Python 3.6<pre>
 <code>
 from sdk.SmsSDK import SmsSDK
 
