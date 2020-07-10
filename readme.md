@@ -1,17 +1,17 @@
   
-## 发布说明
-# v1.0
-
-发布日期: 2020-06-29
-
-功能说明：
-- 通过SDK方式提供发送模板短信功能。
+## 安装SDK
+```console
+$ pip install ronglian_sms_sdk
+Collecting ronglian_sms_sdk…
+✔ Successfully installed ronglian-sdk-xx
+…
+```
 --------------------------------
 
 ## 示例
 <pre>
 <code>
-from sdk.SmsSDK import SmsSDK
+from ronglian_sms_sdk import SmsSDK
 
 accId = '容联云通讯分配的主账号ID'
 accToken = '容联云通讯分配的主账号TOKEN'
@@ -28,18 +28,28 @@ def send_message():
 </pre>
 --------------------------------
 
+## 发布说明
+# v1.0
+
+发布日期: 2020-06-29
+
+功能说明：
+- 提供发送模板短信功能。
+--------------------------------
+
 ## 目录结构
 <pre>
-SmsSDK
+python-sms-sdk
 │ readme.md
-├─demo
-│      SmsDemo.py
+| requirements.txt
+├─example
+│      SendMessage.py    -- 发送短信示例
 │
-├─sdk
-│  │  algorithm.py
-│  │  SmsSDK.py
+├─ronglian_sms_sdk
+│  │  algorithm.py       -- SDK依赖算法
+│  │  SmsSDK.py          -- 短信SDK
 │  │  __init__.py
 </pre>
-
 --------------------------------
+
 https://www.yuntongxun.com

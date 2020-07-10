@@ -1,4 +1,4 @@
-from sdk.SmsSDK import SmsSDK
+from ronglian_sms_sdk import SmsSDK
 
 accId = '容联云通讯分配的主账号ID'
 accToken = '容联云通讯分配的主账号TOKEN'
@@ -11,3 +11,5 @@ def send_message():
     datas = ('变量1', '变量2')
     resp = sdk.sendMessage(tid, mobile, datas)
     print(resp)
+
+send_message()

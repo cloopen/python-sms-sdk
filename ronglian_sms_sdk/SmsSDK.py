@@ -11,7 +11,7 @@
 #  in the file PATENTS.  All contributing project authors may
 #  be found in the AUTHORS file in the root of the source tree.
 
-from sdk import algorithm
+from ronglian_sms_sdk import algorithm
 import requests
 import time
 import json
